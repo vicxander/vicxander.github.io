@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoundQR - Developer Site</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0d0d0d;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 0 16px 64px;
+    }
+
+    header {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 0 32px;
+      border-bottom: 1px solid #1a1a1a;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .logo-sound { color: #ffffff; font-size: 24px; font-weight: 700; }
+    .logo-qr    { color: #1affa3; font-size: 24px; font-weight: 700; }
+
+    header p {
+      color: rgba(255,255,255,0.45);
+      font-size: 14px;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding-top: 40px;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .summary {
+      color: #1affa3;
+      font-size: 13px;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #1affa3;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 40px 0 12px;
+    }
+
+    p { margin-bottom: 12px; }
+
+    dl {
+      margin: 8px 0 12px;
+    }
+
+    dt {
+      color: rgba(255,255,255,0.55);
+      font-size: 13px;
+      margin-top: 14px;
+      text-transform: uppercase;
+    }
+
+    dd {
+      color: #ffffff;
+      overflow-wrap: anywhere;
+    }
+
+    .highlight {
+      background: #111;
+      border-left: 3px solid #1affa3;
+      border-radius: 0 6px 6px 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      color: #ccffec;
+    }
+
+    a { color: #1affa3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      max-width: 720px;
+      margin: 64px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid #1a1a1a;
+      color: rgba(255,255,255,0.3);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <span class="logo-sound">Sound</span><!--
+      --><span class="logo-qr">QR</span>
+    </div>
+    <p>Your voice, encoded in QR.</p>
+  </header>
+
+  <main>
+    <h1>SoundQR Developer Site</h1>
+    <p class="summary">Official developer information for SoundQR on Android.</p>
+
+    <div class="highlight">
+      SoundQR is an offline Android app that records short voice clips, compresses them with
+      Codec2, encodes them into QR codes, and decodes scanned SoundQR payloads back into sound
+      on the device.
+    </div>
+
+    <h2>App Identity</h2>
+    <dl>
+      <dt>App</dt>
+      <dd>SoundQR</dd>
+      <dt>Developer</dt>
+      <dd>Victor Alexander Daud</dd>
+      <dt>Android package</dt>
+      <dd>com.victoralexanderdaud.soundqr</dd>
+    </dl>
+
+    <h2>Privacy</h2>
+    <p>
+      SoundQR's core voice recording, QR encoding, QR decoding, local history, and optional
+      encryption features are designed to work on-device.
+    </p>
+    <p>
+      Read the SoundQR privacy policy at
+      <a href="https://vicxander.github.io/sound-qr-docs/privacy-policy/">https://vicxander.github.io/sound-qr-docs/privacy-policy/</a>.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For developer, privacy, or app support questions, contact
+      <a href="mailto:vicxander.daud@gmail.com">vicxander.daud@gmail.com</a>.
+    </p>
+
+    <h2>App-Ads.txt</h2>
+    <p>
+      SoundQR publishes authorized digital advertising seller information for Google AdMob
+      verification at the developer website root:
+      <a href="../app-ads.txt">/app-ads.txt</a>.
+    </p>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2026 Victor Alexander Daud. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
